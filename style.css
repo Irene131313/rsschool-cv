@@ -31,14 +31,15 @@ body {
     padding: 0px 20px;
     line-height: 50px;
     text-decoration: none;
+    color: #ffff;
 }
 a {
-    color: #ffff;
+    color: #000000;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffff;
+    color: #000000;
     font-weight: bold;
 }
 .main-container {
@@ -53,9 +54,11 @@ a:hover {
     width: 100%;
 }
 }
-.contact-list, .skills-list, .language-list, .edu-list {
+.contact-list, .skills-list, .language-list, .edu-list, .p-list {
+padding: 0px 30px;
+line-height: 50px;
 list-style: none;
-padding: 0px 20px;
+list-style-image: url(assets/img/icons.svg)
 }
 .leftimg {
     padding-left: 0px; 
@@ -82,7 +85,7 @@ padding: 0px 20px;
     align-items: center;
     justify-content: space-around;
 }
-pre {
+.snippet {
     background-color: #6d95d6;
     
     margin-right: 285px;
@@ -94,4 +97,8 @@ pre {
 }
 .section-title {
     text-align: center;
+}
+
+.text {
+    text-indent: 30px;
 }
